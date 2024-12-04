@@ -1,0 +1,33 @@
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cart-summary {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #ddd; /* Add a separator line */
+}
+
+.payment-form {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.alert {
+    margin-top: 10px;
+}
